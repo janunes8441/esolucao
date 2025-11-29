@@ -1,8 +1,18 @@
+# ----------------------------
+# Maven / Gradle
+# ----------------------------
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 .kotlin
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ----------------------------
+# IDEs
+# ----------------------------
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -28,12 +38,31 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+# ----------------------------
+# Selenium / WebDriver
+# ----------------------------
+screenshots/
+videos/
+
+# ----------------------------
+# Allure
+# ----------------------------
+allure-results/
+allure-report/
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+
+# ----------------------------
+# Sistema
+# ----------------------------
 .DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
